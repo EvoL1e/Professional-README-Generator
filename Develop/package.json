@@ -1,7 +1,7 @@
 {
-  "name": "static-site",
+  "name": "Professional README Generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "This script is supposed to help someone make a professional looking README file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
