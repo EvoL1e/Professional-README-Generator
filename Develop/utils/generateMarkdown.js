@@ -48,11 +48,11 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license, year, name) {
+function renderLicenseSection(license, data) {
   switch(license) {
     case "Apache License 2.0":
       return (`
-      Copyright (C) ${year} ${name}
+      Copyright (C) ${data.year} ${data.name}
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
 1. Definitions.
@@ -228,7 +228,7 @@ END OF TERMS AND CONDITIONS`);
     
     case "GNU GPLv2":
       return (`
-        Copyright (C) ${year} ${name}
+        Copyright (C) ${data.year} ${data.name}
            Preamble
 
 The licenses for most software are designed to take away your
@@ -504,7 +504,7 @@ POSSIBILITY OF SUCH DAMAGES.
 
     case "GNU GPLv3":
       return (`
-        Copyright (C) ${year} ${name}
+        Copyright (C) ${data.year} ${data.name}
            Preamble
 
 The GNU General Public License is a free, copyleft license for
@@ -1122,7 +1122,7 @@ copy of the Program in return for a fee.
 
     case "MIT":
       return (`
-                        Copyright (C) ${year} ${name}
+                        Copyright (C) ${data.year} ${data.name}
 
       Permission is hereby granted, free of charge, to any person obtaining a copy
       of this software and associated documentation files (the "Software"), to deal
@@ -1144,7 +1144,7 @@ copy of the Program in return for a fee.
 
     case "ISC":
       return (`
-                      Copyright (C) ${year} ${name}
+                      Copyright (C) ${data.year} ${data.name}
       Permission to use, copy, modify, and/or distribute this software for any
       purpose with or without fee is hereby granted, provided that the above
       copyright notice and this permission notice appear in all copies.
@@ -1163,9 +1163,49 @@ copy of the Program in return for a fee.
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return (`# ${data.title}
+function generateMarkdown(data, license, licenseBadge, licenseLink) {
+  return (
+`# ${data.title}
 
+## Description
+
+   ${data.description}
+
+${data.tableOfContents}
+
+## Installation
+
+    ${data.installation}
+
+## Usage
+
+    ${data.usage}
+
+## Credits
+
+    ${data.credits}
+
+## Licencees 
+
+    ${license}
+    ${licenseLink}
+
+## Badges
+
+    ${licenseBadge}
+
+## Contribution 
+
+    ${data.contribution}
+
+## Test
+    ${data.test}
+
+## Questions
+
+    If you have any questions or concerns feel free to contact me through either my email or GitHub page
+    Email: ${data.email}
+    GitHub: ${data.GitHub}
 `);
 }
 
