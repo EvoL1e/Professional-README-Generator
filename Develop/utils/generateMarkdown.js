@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Create a function that returns a license badge based on which license is passed in; if there is no license, return an empty string
 function renderLicenseBadge(license) {
   switch(license) {
     case "Apache License 2.0":
@@ -22,8 +21,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Create a function that returns the license link; if there is no license, return an empty string
 function renderLicenseLink(license) {
   switch(license) {
     case "Apache License 2.0":
@@ -1162,7 +1160,7 @@ copy of the Program in return for a fee.
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Create a function to generate the README markdown
 function generateMarkdown(data) {
   let license = renderLicenseSection(data.license, data.name, data.year);
   let licenseBadge = renderLicenseBadge(data.license, data.name, data.year);
