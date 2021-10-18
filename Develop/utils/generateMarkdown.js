@@ -1170,7 +1170,7 @@ function generateMarkdown(data) {
 
 ## Description
 
-   ${data.description}
+  ${data.description}
 
 ## Table of Contents
 
@@ -1184,35 +1184,36 @@ function generateMarkdown(data) {
 
 ## Installation
 
-    ${data.install}
+  ${data.install}
 
 ## Usage
 
-    ${data.usage}
+  ${data.usage}
 
 ## Credits
 
-    ${data.credits}
+  ${data.credits}
 
 ## Licencees 
 
-    ${license}
-    ${licenseLink}
+  ${license}
+  ${licenseLink}
 
 ## Badges
 
-    ${licenseBadge}
+  ${licenseBadge}
 
 ## Contribution 
 
-    ${data.contribution}
+  ${data.contribution}
 
 ## Test
-    ${data.test}
+  ${data.test}
 
 ## Questions
 
-    If you have any questions or concerns feel free to contact me through either my email or GitHub page
+  If you have any questions or concerns feel free to contact me through either my email or GitHub page
+    
     Email: ${data.email}
     GitHub: ${data.github}
 `);

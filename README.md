@@ -2,7 +2,15 @@
 
 ## Description
 
- I was tasked with making a generator that could make a professional looking README. The README had to have a title, description, table of contents, installation section, usage section, credits sections, license section, link to the license, license badge, test section, a question section with a github and email for contact info, and a name and current year to add to the license copyright. All of this would be prompted using inquirer and the user would answer each one. After the user answers each one the data the user input would be used to fill out all that info and sections to help create a more professional looking README file for the user and saving them time from having to set up the markdown themselves.
+    I was tasked with making a generator that could make a professional looking README. The README had to have a title, description, table of contents, installation section, usage section, credits sections, license section, link to the license, license badge, test section, a question section with a github and email for contact info, and a name and current year to add to the license copyright. All of this would be prompted using inquirer and the user would answer each one. After the user answers each one the data the user input would be used to fill out all that info and sections to help create a more professional looking README file for the user and saving them time from having to set up the markdown themselves.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Questions](#questions)
 
 
 ## Installation
@@ -17,19 +25,33 @@
 
 ## Usage
 
-If you would like to use this script as of right now you would have to follow the installation guide to download it to your local machine. From there you would have to open up a terminal and go to where the files are. From there change to the Develop folder specifically and use npm start or node index.js to start the script. The script will start up by asking you a few questions that will be used to fill out the README file. After answering them all a professional looking README file should appear in front of you!
+    If you would like to use this script as of right now you would have to follow the installation guide to download it to your local machine. From there you would have to open up a terminal and go to where the files are. From there change to the Develop folder specifically and use npm start or node index.js to start the script. The script will start up by asking you a few questions that will be used to fill out the README file. After answering them all a professional looking README file should appear in front of you!
 
 * Images and video of the functionality of this script
 
-![]()
+    ![A picture showing the scripts questions with some test answers](assets/questions.png)
+
+    ![A picture showing the README.md file that was just generated using the users answers](assets/readme.png)
+
+    ![A video showing the usage of the script]()
+
+    A link to the video as well: 
 
 ## Credits
 
-This project was completed by myself.
+    This project was completed by myself.
 
 ## Licencees 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+                                                        Copyright (C) 2021 Abraam Ibrahim
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+   he above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Questions
+
+    If you have any questions or concerns feel free to contact me through either my email or GitHub page
+    
+        Email: abraam31658@gmail.com
+        GitHub: https://github.com/EvoL1e
