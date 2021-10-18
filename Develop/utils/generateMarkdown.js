@@ -1170,7 +1170,7 @@ function generateMarkdown(data) {
 
 ## Description
 
-  ${data.description}
+${data.description}
 
 ## Table of Contents
 
@@ -1184,31 +1184,31 @@ function generateMarkdown(data) {
 
 ## Installation
 
-  ${data.install}
+${data.install}
 
 ## Usage
 
-  ${data.usage}
+${data.usage}
 
 ## Credits
 
-  ${data.credits}
+${data.credits}
 
 ## Licencees 
 
-  ${license}
-  ${licenseLink}
+${license}
+${licenseLink}
 
 ## Badges
 
-  ${licenseBadge}
+${licenseBadge}
 
 ## Contribution 
 
-  ${data.contribution}
+${data.contribution}
 
 ## Test
-  ${data.test}
+${data.test}
 
 ## Questions
 
